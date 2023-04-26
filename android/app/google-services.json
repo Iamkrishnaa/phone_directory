@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "687009273156",
+    "project_id": "phone-directory-a7c9e",
+    "storage_bucket": "phone-directory-a7c9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687009273156:android:798efb0fa660dcc46d7311",
+        "android_client_info": {
+          "package_name": "com.teispace.phone_directory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687009273156-k9tmumotvc70qqnotrh4k12btam6hs1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teispace.phone_directory",
+            "certificate_hash": "a4ee16af4f622cac3863f85d9b6d51012492926f"
+          }
+        },
+        {
+          "client_id": "687009273156-0pc4h4lbdr0diqnqrqou692hshe2ro8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFabfeyXDplAv0VDA6LIfQP6cYBcX6rq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687009273156-0pc4h4lbdr0diqnqrqou692hshe2ro8s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "687009273156-6vg1mvtu0l01ctngini28b74stmkvdit.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.teispace.phoneDirectory"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
