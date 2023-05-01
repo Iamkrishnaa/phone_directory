@@ -1,6 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
+import 'package:phone_directory/app/routes/app_pages.dart';
+import 'package:phone_directory/app/services/local/auth_service.dart';
 
 class HomeController extends GetxController {
   FirebaseAuth firebaseAuth = FirebaseAuth.instance;
@@ -43,4 +45,10 @@ class HomeController extends GetxController {
 
   Stream<QuerySnapshot> get phoneDirectoryStream =>
       getPhoneDirectoryCollectionReference().snapshots();
+
+  signout() async {
+    AuthService authService = Get.find();
+    await authService.signOut();
+    Get.offAllNamed(Routes.LOGIN);
+  }
 }
